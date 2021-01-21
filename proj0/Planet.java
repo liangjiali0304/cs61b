@@ -99,7 +99,7 @@ public class Planet {
     }
 
     public void draw(){
-        StdDraw.picture(xxPos,yyPos, "../images/"+imgFileName,2.5e10,2.5e10);
+        StdDraw.picture(xxPos,yyPos, "images/"+imgFileName,2.5e10,2.5e10);
     }
 
 }

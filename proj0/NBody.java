@@ -44,12 +44,12 @@ public class NBody {
         System.out.println(T);
 
         /** universe img*/
-        String imageToDraw = "../images/starfield.jpg";
+        String imageToDraw = "images/starfield.jpg";
 
 
         /** Sets up the universe so it goes from
            * -100, -100 up to 100, 100 */
-        StdAudio.play("../audio/2001.mid");
+        StdAudio.play("audio/2001.mid");
         StdDraw.enableDoubleBuffering();
 
         double r_universe = readRadius(filename);
