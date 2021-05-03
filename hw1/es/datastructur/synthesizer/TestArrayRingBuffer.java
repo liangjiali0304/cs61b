@@ -34,6 +34,6 @@ public class TestArrayRingBuffer {
         arb.enqueue(44.8); // 33.1 44.8 null  null
         arb.enqueue(62.3); // 33.1 44.8 62.3  null
         arb.enqueue(-3.4); // 33.1 44.8 62.3 -3.4
-        assertEquals(44.8,(double) arb.peek(),0.01);
+        assertEquals(33.1,(double) arb.peek(),0.01);
     }
 }

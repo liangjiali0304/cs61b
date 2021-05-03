@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca4b40c2-d62b-4cd3-99d8-a8d82986d1d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/es/datastructur/synthesizer/BoundedQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/es/datastructur/synthesizer/ArrayRingBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/es/datastructur/synthesizer/ArrayRingBuffer.java" afterDir="false" />
+    <list default="true" id="72d35703-18a7-490f-8792-0085aeaaa783" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/GuitarHero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/prep06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GuitarHeroLite.java" beforeDir="false" afterPath="$PROJECT_DIR$/GuitarHeroLite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TTFAF.java" beforeDir="false" afterPath="$PROJECT_DIR$/TTFAF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/datastructur/synthesizer/GuitarString.java" beforeDir="false" afterPath="$PROJECT_DIR$/es/datastructur/synthesizer/GuitarString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/es/datastructur/synthesizer/TestArrayRingBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/es/datastructur/synthesizer/TestArrayRingBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hw1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hw1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hw1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hw1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hw1/GuitarHeroLite.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hw1/GuitarHeroLite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hw1/TTFAF.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hw1/TTFAF.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hw1/es/datastructur/synthesizer/GuitarString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hw1/es/datastructur/synthesizer/GuitarString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hw1/es/datastructur/synthesizer/TestArrayRingBuffer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hw1/es/datastructur/synthesizer/TestArrayRingBuffer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/out/test/test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test/out/test/test/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,14 +25,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1ocLMNUAnehKCXz20uDhSzGzWlz" />
+  <component name="ProjectId" id="1ocutxd40IshlYnmLwv3ePvj8aV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -33,13 +44,31 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager">
-    <configuration name="TestArrayRingBuffer.someTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.GuitarHero">
+    <configuration name="GuitarHero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GuitarHero" />
+      <module name="hw1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GuitarHeroLite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GuitarHeroLite" />
+      <module name="hw1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TTFAF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TTFAF" />
+      <module name="hw1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestArrayRingBuffer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hw1" />
       <extension name="coverage">
         <pattern>
@@ -49,26 +78,28 @@
       </extension>
       <option name="PACKAGE_NAME" value="es.datastructur.synthesizer" />
       <option name="MAIN_CLASS_NAME" value="es.datastructur.synthesizer.TestArrayRingBuffer" />
-      <option name="METHOD_NAME" value="someTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestArrayRingBuffer.someTest" />
+        <item itemvalue="Application.GuitarHero" />
+        <item itemvalue="Application.GuitarHeroLite" />
+        <item itemvalue="Application.TTFAF" />
+        <item itemvalue="JUnit.TestArrayRingBuffer" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ca4b40c2-d62b-4cd3-99d8-a8d82986d1d1" name="Default Changelist" comment="" />
-      <created>1613580884944</created>
+      <changelist id="72d35703-18a7-490f-8792-0085aeaaa783" name="Default Changelist" comment="" />
+      <created>1613598418046</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1613580884944</updated>
+      <updated>1613598418046</updated>
     </task>
     <servers />
   </component>

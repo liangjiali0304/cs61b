@@ -5,10 +5,10 @@ public class GuitarString {
     /** Constants. Do not change. In case you're curious, the keyword final
      * means the values cannot be changed at runtime. */
     private static final int SR = 44100;      // Sampling Rate
-    private static final double DECAY = .996; // energy decay factor
+    private static final double DECAY = .988; // energy decay factor
 
     /* Buffer for storing sound data. */
-    private BoundedQueue<Double> buffer;
+    private ArrayRingBuffer<Double> buffer;
     private int capacity;
     /* Create a guitar string of the given frequency.  */
     public GuitarString(double frequency) {

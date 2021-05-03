@@ -12,20 +12,21 @@ import java.util.zip.GZIPInputStream;
  */
 public class TTFAF {
     public static void main(String[] args) {
+        /**
         try {
             InputStream source = new ByteArrayInputStream(Base64.getDecoder().decode(TTFAF));
             source = new GZIPInputStream(source);
             GuitarPlayer player = new GuitarPlayer(source);
-            player.play();
+            //player.play();
         } catch (IOException e) {
             e.printStackTrace();
         }
-
+        */
         // You can also do this:
-        // GuitarPlayer player = new GuitarPlayer(new java.io.File("path/to/music.mid"));
-        // player.play();
+         GuitarPlayer player = new GuitarPlayer(new java.io.File("streamOfPraise.mid"));
+         player.play();
     }
-
+    /**
     private static final String TTFAF =
         "H4sICO8zfloCA1RURkFGaW1wcm92ZWQyLm1pZAC1fe1uI0mSWNze2mf4CQwMGhIamu7WSqfRtEYi"
         + "WSyyqljFYpGlUlFsbmsGjb27BXbhPdz5Dljbv7ebvcbtD8Mg7BfZR/Cj7IsY48qMiMyM+hLV3fOP"
@@ -182,4 +183,5 @@ public class TTFAF {
         + "YmW9jm7h7LZBcAqVUWwnOIK8aquEs7JOUD/zY0ArBk31oy1YvqODmDv95xTT7/6IMd58BSczuKTD"
         + "8wUeQqcz27kPJxu43Hxw06TZAE7u4PLOParlZEg8gv6CqnAAZQmXyw9nVEgRopMcLnNTqKj9wwb0"
         + "6zR/5Bb/AT7+4c9/APjxG/j/XQ2yXpqSAA==";
+     */
 }
